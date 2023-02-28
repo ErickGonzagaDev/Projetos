@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 762px) and (max-width: 992px) {
+
+    /*Tablet*/
+    section#info {
+        height: 400px;
+    }
+
+    section#info>div#info-foto {
+        display: block;
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    section#info>div#info-dados>h2 {
+        font-size: 40px;
+        margin: 20px 0px;
+
+    }
+
+    section#info>input {
+        display: contents;
+
+    }
+}
+
+@media screen and (min-width: 992px) {
+
+    /*PC*/
+    header {
+        display: flex;
+    }
+
+    header>span#burguer {
+        display: none;
+    }
+
+    header>#menu-bar {
+        display: block;
+    }
+
+    header>ul>li {
+        padding: 10px;
+        display: inline-block;
+        font-size: 15pt;
+        list-style: none;
+        justify-content: space-around;
+
+    }
+
+    section#info {
+        height: 500px;
+    }
+
+    section#info>div#info-foto {
+        display: block;
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#info>div#info-dados>form {
+        padding-top: 6%;
+    }
+
+    section#info>div#info-dados>h2 {
+        font-size: 50px;
+        margin-right: 25%;
+        margin-top: 20px;
+    }
+
+
+    section#info>input {
+        display: contents;
+
+    }
+
+
+}
