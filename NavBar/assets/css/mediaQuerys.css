@@ -1,0 +1,38 @@
+@media screen and (min-width:700px){
+
+
+
+    #btn-burger{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header nav ul{
+        display: flex;
+    }
+
+
+    #btn-entrar{
+        width: 100px;
+    }
+
+    header nav ul
+     {
+        display: flex;
+    }
+
+ #btn-entrar{
+    display: block;
+    margin: 0;
+ }
+
+ .arruma{
+    display: flex;
+ }
+}
+

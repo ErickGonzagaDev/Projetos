@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('/CountDownTimer/assets/images/foto1.jpg') no-repeat  ;
+    background-size: cover;
+}
+
+.container{
+    white-space: nowrap;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgba(96, 94, 94, 0.407);
+}   
