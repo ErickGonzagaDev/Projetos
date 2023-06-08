@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgba(240, 240, 240, 1);
+    display: grid;
+    min-height: 100vh;
+    place-items: center;
+    width: 100%;
+}
+
+.game-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    max-width: 480px;
+    width: 100%;
+}
+
+.game-container>.players-container {
+    column-gap: 30%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.game-container>.players-container>.player {
+    display: flex;
+    flex-wrap: wrap;
+    transform: rotatey(180deg);
+
+}
+
+.game-container>.players-container .option {
+    max-width: 150px;
+    opacity: 0.5;
+    transition: 0.5s;
+    width: 100%;
+}
+
+.game-container>.players-container>.player>.option {
+    cursor: pointer;
+}
+
+.game-container>.players-container>.player>.option:hover {
+    opacity: 1;
+}
+
+.game-container>.players-container .option>img {
+    /*Object-fit é utilizada para especificar como um objeto (imagem, vídeo, iframe) deve ser redimensionado para se ajustar ao seu contêiner*/
+    object-fit: contain;
+    width: 70%;
+}
+
+.game-container>.result-container {
+    color: rgba(60, 60, 60, 1);
+    font-size: 22px;
+    padding: 16px;
+    text-align: center;
+}
