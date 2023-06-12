@@ -35,7 +35,7 @@ const renderPokemon = async (pokemon) => {
     pokemonId = data.id
     input.value = ''
 
-}
+} 
 
 form.addEventListener('submit', (event) => {
     event.preventDefault()
